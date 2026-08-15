@@ -1,0 +1,36 @@
+{
+  "name": "chinese-character-open",
+  "version": "0.1.0",
+  "description": "A numbered catalog of 24 Chinese fonts with license-safe preview and export tools.",
+  "author": {
+    "name": "Reymond"
+  },
+  "license": "MIT",
+  "keywords": [
+    "chinese-fonts",
+    "typography",
+    "webfonts",
+    "design"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Chinese Character Open",
+    "shortDescription": "24 numbered Chinese fonts, ready to compare and safely apply.",
+    "longDescription": "Browse a 24-font Chinese typography catalog, inspect official sources and licenses, and export the 20 redistributable upstream font files with every required notice preserved.",
+    "developerName": "Reymond",
+    "category": "Design",
+    "capabilities": [
+      "Preview",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "用 Chinese Character Open 为当前页面挑选一款大胆中文标题字体。",
+      "生成 14、17、18 三款大胆中文字体的同文案对比预览。",
+      "列出 24 款字体，并说明哪些可以随项目安全导出。"
+    ],
+    "brandColor": "#139B73",
+    "screenshots": [
+      "./assets/font-library-preview.png"
+    ]
+  }
+}

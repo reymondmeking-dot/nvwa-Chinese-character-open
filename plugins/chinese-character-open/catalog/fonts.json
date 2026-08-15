@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "name": "Chinese Character Open",
+  "updated": "2026-08-15",
+  "defaultShortlist": ["14", "17", "18"],
+  "distributionModes": {
+    "bundled": "The unmodified upstream font binary and its license files are included.",
+    "link-only": "No font binary is included; use the official source and license links."
+  },
+  "fonts": [
+    {
+      "id": "01",
+      "slug": "misans",
+      "name": {"en": "MiSans", "zhHans": "MiSans"},
+      "style": "现代、克制、系统级无衬线",
+      "bestFor": ["产品 UI", "数据界面", "正文"],
+      "source": {
+        "homepage": "https://hyperos.mi.com/font/zh/download/",
+        "license": "https://hyperos.mi.com/font/zh/download/"
+      },
+      "license": {"id": "LicenseRef-MiSans", "files": []},
+      "distribution": {
+        "mode": "link-only",
+        "note": "官方协议禁止将字体或副本作为独立字体资源进一步分发。"
+      },
+      "assets": []
+    },
+    {
+      "id": "02",
+      "slug": "harmonyos-sans-sc",
+      "name": {"en": "HarmonyOS Sans SC", "zhHans": "鸿蒙字体简体中文"},
+      "style": "开放、清晰、屏幕友好无衬线",
+      "bestFor": ["产品 UI", "信息面板", "多字重排版"],
+      "source": {
+        "homepage": "https://developer.huawei.com/consumer/cn/design/resource-V1/",
+        "license": "https://developer.huawei.com/consumer/cn/design/resource-V1/"
+      },
+      "license": {"id": "LicenseRef-HarmonyOS-Sans", "files": []},
+      "distribution": {
+        "mode": "link-only",
+        "note": "许可允许随非字体软件捆绑，但不允许作为字体集合独立再分发。"
+      },
+      "assets": []
+    },
+    {
+      "id": "03",
+      "slug": "alibaba-puhuiti-3",
+      "name": {"en": "Alibaba PuHuiTi 3.0", "zhHans": "阿里巴巴普惠体 3.0"},
+      "style": "商业感、均衡、现代无衬线",
+      "bestFor": ["品牌系统", "电商界面", "正文"],
+      "source": {
+        "homepage": "https://fonts.alibabagroup.com/#/font",
+        "license": "https://www.yuque.com/yiguang-wkqc2/hgpff0/nus9wiinq4aeiegy"
+      },
+      "license": {"id": "LicenseRef-Alibaba-PuHuiTi", "files": []},
+      "distribution": {
+        "mode": "link-only",
+        "note": "免费使用不等于允许字体仓库独立再分发；请从官方获取。"
+      },
+      "assets": []
+    },
+    {
+      "id": "04",
+      "slug": "douyin-sans",
+      "name": {"en": "Douyin Sans", "zhHans": "抖音美好体"},
+      "style": "粗壮、圆润、短视频品牌感",
+      "bestFor": ["Hero 标题", "海报", "活动标签"],
+      "source": {
+        "homepage": "https://github.com/bytedance/fonts/tree/main/DouyinSans",
+        "license": "https://github.com/bytedance/fonts/blob/main/DouyinSans/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/04-douyin-sans/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 TTF，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 04 Douyin", "weight": "700", "style": "normal"},
+      "assets": [{"path": "fonts/04-douyin-sans/files/DouyinSansBold.ttf", "format": "truetype", "bytes": 1919404, "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1"}]
+    },
+    {
+      "id": "05",
+      "slug": "wenyuan-rounded-sc",
+      "name": {"en": "WenYuan Rounded SC", "zhHans": "文渊圆体"},
+      "style": "温和、现代、几何圆体",
+      "bestFor": ["亲和品牌", "儿童内容", "产品标题"],
+      "source": {
+        "homepage": "https://github.com/takushun-wu/WenYuanFonts",
+        "license": "https://github.com/takushun-wu/WenYuanFonts/blob/main/LICENSE.md"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/05-wenyuan-rounded-sc/licenses/LICENSE.md", "fonts/05-wenyuan-rounded-sc/licenses/LICENSE-zh.md"]},
+      "distribution": {"mode": "bundled", "note": "原始上游可变 TTF；保留 WenYuan Rounded / 文渊圆体名称。"},
+      "css": {"family": "Nvwa Chinese 05 WenYuan Rounded", "weight": "100 900", "style": "normal"},
+      "assets": [{"path": "fonts/05-wenyuan-rounded-sc/files/WenYuanRoundedSCVF.ttf", "format": "truetype", "bytes": 48770664, "sha256": "faab0b0f3fe3126b1a0d7b5d7688409caaeb61ee0f3760b1b84d48805f97cabb"}]
+    },
+    {
+      "id": "06",
+      "slug": "alimama-fangyuan-vf",
+      "name": {"en": "Alimama FangYuanTi VF", "zhHans": "阿里妈妈方圆体"},
+      "style": "方圆几何、醒目、品牌展示体",
+      "bestFor": ["品牌标题", "活动页", "大字号数字"],
+      "source": {
+        "homepage": "https://fonts.alibabagroup.com/#/font",
+        "license": "https://www.yuque.com/alimama_ai-font/vfse9w/fco5g1gifud8lls2"
+      },
+      "license": {"id": "LicenseRef-Alimama-FangYuanTi", "files": []},
+      "distribution": {
+        "mode": "link-only",
+        "note": "未取得字体仓库独立再分发授权；请从官方获取并接受其条款。"
+      },
+      "assets": []
+    },
+    {
+      "id": "07",
+      "slug": "frex-sans-gb",
+      "name": {"en": "Frex Sans GB", "zhHans": "械黑 GB"},
+      "style": "机械、窄长、带油墨陷阱",
+      "bestFor": ["科技标题", "编辑设计", "数据大字"],
+      "source": {
+        "homepage": "https://github.com/maoken-fonts/frex-sans",
+        "license": "https://github.com/maoken-fonts/frex-sans/blob/main/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/07-frex-sans-gb/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 WOFF2，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 07 Frex Sans GB", "weight": "600", "style": "normal"},
+      "assets": [{"path": "fonts/07-frex-sans-gb/files/FrexSansGB-SemiBold.woff2", "format": "woff2", "bytes": 1704780, "sha256": "3af8803f4e265ff749586daf9d6747ae862a8b771e6c0f4db5dd59d8bbaf4876"}]
+    },
+    {
+      "id": "08",
+      "slug": "chill-g-sans",
+      "name": {"en": "Chill G Sans", "zhHans": "寒蝉高黑"},
+      "style": "高挑、锐利、带手写笔意",
+      "bestFor": ["Hero 标题", "标签", "时尚排版"],
+      "source": {
+        "homepage": "https://github.com/Warren2060/ChillGSans",
+        "license": "https://github.com/Warren2060/ChillGSans/blob/main/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/08-chill-g-sans/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 OTF，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 08 Chill G Sans", "weight": "500", "style": "normal"},
+      "assets": [{"path": "fonts/08-chill-g-sans/files/ChillGSans-Medium.otf", "format": "opentype", "bytes": 7959892, "sha256": "93af461beb799901d597cefaf1f382667ad29230d042688803a405778a981383"}]
+    },
+    {
+      "id": "09",
+      "slug": "smiley-sans",
+      "name": {"en": "Smiley Sans", "zhHans": "得意黑"},
+      "style": "窄斜、活泼、手绘几何",
+      "bestFor": ["大胆标题", "海报", "品牌字"],
+      "source": {
+        "homepage": "https://github.com/atelier-anchor/smiley-sans",
+        "license": "https://github.com/atelier-anchor/smiley-sans/blob/main/LICENSE"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/09-smiley-sans/licenses/LICENSE"]},
+      "distribution": {"mode": "bundled", "note": "原始官方 WOFF2；得意黑为保留字体名，不修改文件。"},
+      "css": {"family": "Nvwa Chinese 09 Smiley Sans", "weight": "400", "style": "oblique"},
+      "assets": [{"path": "fonts/09-smiley-sans/files/SmileySans-Oblique.woff2", "format": "woff2", "bytes": 1150924, "sha256": "731f22973349404b15a88a99ef3b5dd4104c0965c23b7e485c1f11e84fea99e2"}]
+    },
+    {
+      "id": "10",
+      "slug": "lxgw-neo-xihei",
+      "name": {"en": "LXGW Neo XiHei", "zhHans": "霞鹜新晰黑"},
+      "style": "清晰、中性、略带人文感",
+      "bestFor": ["屏幕正文", "编辑排版", "轻量 UI"],
+      "source": {
+        "homepage": "https://github.com/lxgw/LxgwNeoXiHei",
+        "license": "https://github.com/lxgw/LxgwNeoXiHei/blob/main/LICENSE.md"
+      },
+      "license": {"id": "IPA-1.0", "files": ["fonts/10-lxgw-neo-xihei/licenses/LICENSE.md", "fonts/10-lxgw-neo-xihei/licenses/LICENSE_CHS.md"]},
+      "distribution": {"mode": "bundled", "note": "仅收录未修改的上游原始 TTF；禁止用本仓库文件生成同名子集。"},
+      "css": {"family": "Nvwa Chinese 10 LXGW Neo XiHei", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/10-lxgw-neo-xihei/files/LXGWNeoXiHei.ttf", "format": "truetype", "bytes": 7470358, "sha256": "5965dd992290861c6d62285098dc5ca7f6c669930765fd11d5d0fd4912d816e7"}]
+    },
+    {
+      "id": "11",
+      "slug": "unbounded-sans",
+      "name": {"en": "Unbounded Sans", "zhHans": "无界黑"},
+      "style": "超黑、几何、强势",
+      "bestFor": ["海报标题", "潮流视觉", "极短口号"],
+      "source": {
+        "homepage": "https://github.com/maoken-fonts/unbounded-sans",
+        "license": "https://github.com/maoken-fonts/unbounded-sans/blob/main/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/11-unbounded-sans/licenses/OFL.txt", "fonts/11-unbounded-sans/licenses/OFL_ZHS.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 OTF，随附英文及简体中文 OFL。"},
+      "css": {"family": "Nvwa Chinese 11 Unbounded Sans", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/11-unbounded-sans/files/UnboundedSans.otf", "format": "opentype", "bytes": 3037588, "sha256": "f24018e8dce1e7260da9a15f5232adf8e9f4149eaa82c1dc8f80ee71438d9629"}]
+    },
+    {
+      "id": "12",
+      "slug": "longzhuti",
+      "name": {"en": "LongZhuTi", "zhHans": "龙珠体"},
+      "style": "动感切角、日系潮流",
+      "bestFor": ["游戏标题", "漫画海报", "运动视觉"],
+      "source": {
+        "homepage": "https://github.com/maoken-fonts/LongZhuTi",
+        "license": "https://github.com/maoken-fonts/LongZhuTi/blob/main/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/12-longzhuti/licenses/OFL.txt", "fonts/12-longzhuti/licenses/OFL_ZHS.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 TTF，随附英文及简体中文 OFL。"},
+      "css": {"family": "Nvwa Chinese 12 LongZhuTi", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/12-longzhuti/files/LongZhuTi-Regular.ttf", "format": "truetype", "bytes": 3709044, "sha256": "a7c16e4ec41419981f2a54b35a0ec8f3dba61884b8b8e03721fed179f2088102"}]
+    },
+    {
+      "id": "13",
+      "slug": "wdxl-lubrifont-sc",
+      "name": {"en": "WDXL Lubrifont SC", "zhHans": "WD-XL 滑油字"},
+      "style": "紧凑、圆润、几何 POP",
+      "bestFor": ["趣味标题", "包装", "活动页面"],
+      "source": {
+        "homepage": "https://github.com/NightFurySL2001/WD-XL-font",
+        "license": "https://github.com/NightFurySL2001/WD-XL-font/blob/main/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/13-wdxl-lubrifont-sc/licenses/OFL.txt", "fonts/13-wdxl-lubrifont-sc/licenses/OFL_ZHS.txt", "fonts/13-wdxl-lubrifont-sc/licenses/OFL_ZHT.txt", "fonts/13-wdxl-lubrifont-sc/licenses/SOURCES-LICENSE.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 OTF，保留完整许可与源字体声明。"},
+      "css": {"family": "Nvwa Chinese 13 WDXL Lubrifont", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/13-wdxl-lubrifont-sc/files/WDXLLubrifontSC-Regular.otf", "format": "opentype", "bytes": 6160072, "sha256": "47e31f0e30ca527918e18b2e6e80d4bf84aa79880b4d916198da6e80929f65d8"}]
+    },
+    {
+      "id": "14",
+      "slug": "zcool-qingke-huangyou",
+      "name": {"en": "ZCOOL QingKe HuangYou", "zhHans": "站酷庆科黄油体"},
+      "style": "紧凑、复古、几何展示体",
+      "bestFor": ["Hero 标题", "品牌字", "活动标签"],
+      "source": {
+        "homepage": "https://github.com/google/fonts/tree/main/ofl/zcoolqingkehuangyou",
+        "license": "https://github.com/google/fonts/blob/main/ofl/zcoolqingkehuangyou/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/14-zcool-qingke-huangyou/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "Google Fonts 上游原始 TTF，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 14 QingKe", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/14-zcool-qingke-huangyou/files/ZCOOLQingKeHuangYou-Regular.ttf", "format": "truetype", "bytes": 8328684, "sha256": "54f0c0df4308cd74cd0f2fd3494ae054dbc4a1fd6fa7d71f4807eb4cdd8b4136"}]
+    },
+    {
+      "id": "15",
+      "slug": "zcool-kuaile",
+      "name": {"en": "ZCOOL KuaiLe", "zhHans": "站酷快乐体"},
+      "style": "俏皮、跳跃、手绘卡通",
+      "bestFor": ["儿童内容", "节日海报", "轻松标题"],
+      "source": {
+        "homepage": "https://github.com/google/fonts/tree/main/ofl/zcoolkuaile",
+        "license": "https://github.com/google/fonts/blob/main/ofl/zcoolkuaile/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/15-zcool-kuaile/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "Google Fonts 上游原始 TTF，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 15 KuaiLe", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/15-zcool-kuaile/files/ZCOOLKuaiLe-Regular.ttf", "format": "truetype", "bytes": 1514968, "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"}]
+    },
+    {
+      "id": "16",
+      "slug": "kingnam-bobohei",
+      "name": {"en": "Kingnam Bobohei", "zhHans": "荆南波波黑"},
+      "style": "粗重、波浪、动感 POP",
+      "bestFor": ["潮流海报", "娱乐标题", "包装"],
+      "source": {
+        "homepage": "https://github.com/maoken-fonts/KNBobohei",
+        "license": "https://github.com/maoken-fonts/KNBobohei/blob/main/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/16-kingnam-bobohei/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 TTF，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 16 Bobohei", "weight": "700", "style": "normal"},
+      "assets": [{"path": "fonts/16-kingnam-bobohei/files/KNBobohei-Bold.ttf", "format": "truetype", "bytes": 5387872, "sha256": "4d641bd7885bed7e32eb823723c93259d9678923c4606803fa96d080af465825"}]
+    },
+    {
+      "id": "17",
+      "slug": "lxgw-marker-gothic",
+      "name": {"en": "LXGW Marker Gothic", "zhHans": "霞鹜漫黑"},
+      "style": "粗马克笔、漫画、广告感",
+      "bestFor": ["Hero 标题", "海报", "编辑提要"],
+      "source": {
+        "homepage": "https://github.com/lxgw/LxgwMarkerGothic",
+        "license": "https://github.com/lxgw/LxgwMarkerGothic/blob/main/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/17-lxgw-marker-gothic/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 TTF，随附 OFL 1.1；正式使用前检查目标字形。"},
+      "css": {"family": "Nvwa Chinese 17 Marker Gothic", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/17-lxgw-marker-gothic/files/LXGWMarkerGothic-Regular.ttf", "format": "truetype", "bytes": 3179616, "sha256": "9a1e46379442856b9fc64de1d9bd4120903780990e28d99fd6415cadee78a47d"}]
+    },
+    {
+      "id": "18",
+      "slug": "fusion-pixel",
+      "name": {"en": "Fusion Pixel 12px Proportional zh_hans", "zhHans": "缝合像素字体"},
+      "style": "硬核像素、复古科技",
+      "bestFor": ["游戏 UI", "像素标题", "数字标签"],
+      "source": {
+        "homepage": "https://github.com/TakWolf/fusion-pixel-font",
+        "license": "https://github.com/TakWolf/fusion-pixel-font/blob/master/LICENSE-OFL"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/18-fusion-pixel/licenses/LICENSE-OFL.txt", "fonts/18-fusion-pixel/licenses/LICENSE-MIT.txt", "fonts/18-fusion-pixel/licenses/ark-pixel/OFL.txt", "fonts/18-fusion-pixel/licenses/boutique-bitmap-7x7/OFL.txt", "fonts/18-fusion-pixel/licenses/boutique-bitmap-9x9/OFL.txt", "fonts/18-fusion-pixel/licenses/cubic-11/OFL.txt", "fonts/18-fusion-pixel/licenses/galmuri/LICENSE.txt", "fonts/18-fusion-pixel/licenses/miseki-bitmap/LICENSE.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 WOFF2；保留完整上游许可证集合。"},
+      "css": {"family": "Nvwa Chinese 18 Fusion Pixel", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/18-fusion-pixel/files/FusionPixel12pxProportional-zh-hans.woff2", "format": "woff2", "bytes": 660420, "sha256": "e7e57f471045328b6c9583cbd70fa45122c66c78038c3777abfd7a29d476cf44"}]
+    },
+    {
+      "id": "19",
+      "slug": "noto-serif-sc",
+      "name": {"en": "Noto Serif SC", "zhHans": "思源宋体"},
+      "style": "稳重、精细、现代宋体",
+      "bestFor": ["长文阅读", "杂志标题", "文化品牌"],
+      "source": {
+        "homepage": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+        "license": "https://github.com/google/fonts/blob/main/ofl/notoserifsc/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/19-noto-serif-sc/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "Google Fonts 上游原始可变 TTF，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 19 Noto Serif SC", "weight": "200 900", "style": "normal"},
+      "assets": [{"path": "fonts/19-noto-serif-sc/files/NotoSerifSC-Variable.ttf", "format": "truetype", "bytes": 25125512, "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9"}]
+    },
+    {
+      "id": "20",
+      "slug": "lxgw-neo-zhisong",
+      "name": {"en": "LXGW Neo ZhiSong", "zhHans": "霞鹜新致宋"},
+      "style": "清瘦、文艺、现代宋体",
+      "bestFor": ["杂志标题", "文化内容", "引言"],
+      "source": {
+        "homepage": "https://github.com/lxgw/LxgwNeoZhiSong",
+        "license": "https://github.com/lxgw/LxgwNeoZhiSong/blob/main/LICENSE.md"
+      },
+      "license": {"id": "IPA-1.0", "files": ["fonts/20-lxgw-neo-zhisong/licenses/LICENSE.md", "fonts/20-lxgw-neo-zhisong/licenses/LICENSE_CHS.md"]},
+      "distribution": {"mode": "bundled", "note": "仅收录未修改的上游原始 TTF；禁止用本仓库文件生成同名子集。"},
+      "css": {"family": "Nvwa Chinese 20 LXGW Neo ZhiSong", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/20-lxgw-neo-zhisong/files/LXGWNeoZhiSong.ttf", "format": "truetype", "bytes": 10466308, "sha256": "95936a086ff7ad8e8b30288dec0e20e817976fa1275d8f11a85b1e6144c8d017"}]
+    },
+    {
+      "id": "21",
+      "slug": "zhuque-fangsong",
+      "name": {"en": "Zhuque Fangsong", "zhHans": "朱雀仿宋"},
+      "style": "优雅、古典、书卷仿宋",
+      "bestFor": ["文化标题", "正文", "古典排版"],
+      "source": {
+        "homepage": "https://github.com/TrionesType/zhuque",
+        "license": "https://github.com/TrionesType/zhuque/blob/main/LICENSE.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/21-zhuque-fangsong/licenses/LICENSE.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 TTF，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 21 Zhuque Fangsong", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/21-zhuque-fangsong/files/ZhuqueFangsong-Regular.ttf", "format": "truetype", "bytes": 8824084, "sha256": "558c62730844fe54ba220146ed62f859d4e2880188d92d985f8921c6e3743bc4"}]
+    },
+    {
+      "id": "22",
+      "slug": "maokenwang-fengyasong",
+      "name": {"en": "MaoKenWang FengYaSong", "zhHans": "猫啃网风雅宋"},
+      "style": "窄高、杂志感、仿宋与粗宋混合",
+      "bestFor": ["杂志标题", "文化海报", "品牌字"],
+      "source": {
+        "homepage": "https://github.com/maoken-fonts/fengyasong",
+        "license": "https://github.com/maoken-fonts/fengyasong/blob/main/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/22-maokenwang-fengyasong/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 TTF，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 22 FengYaSong", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/22-maokenwang-fengyasong/files/MaoKenWangFengYaSong.ttf", "format": "truetype", "bytes": 17762800, "sha256": "bf8331db9e2a4b7f16f81de2a24baae37e2619fbaad0599e6b2b8722a2ab7dd2"}]
+    },
+    {
+      "id": "23",
+      "slug": "lxgw-wenkai",
+      "name": {"en": "LXGW WenKai", "zhHans": "霞鹜文楷"},
+      "style": "自然、温润、可读手写楷体",
+      "bestFor": ["阅读正文", "笔记", "人文界面"],
+      "source": {
+        "homepage": "https://github.com/lxgw/LxgwWenKai",
+        "license": "https://github.com/lxgw/LxgwWenKai/blob/main/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/23-lxgw-wenkai/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 TTF，随附 OFL 1.1；保留上游声明。"},
+      "css": {"family": "Nvwa Chinese 23 LXGW WenKai", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/23-lxgw-wenkai/files/LXGWWenKai-Regular.ttf", "format": "truetype", "bytes": 25575676, "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009"}]
+    },
+    {
+      "id": "24",
+      "slug": "xiaolai",
+      "name": {"en": "Xiaolai", "zhHans": "小赖字体"},
+      "style": "随性、亲切、日常手写",
+      "bestFor": ["手账", "儿童内容", "轻松正文"],
+      "source": {
+        "homepage": "https://github.com/lxgw/kose-font",
+        "license": "https://github.com/lxgw/kose-font/blob/master/OFL.txt"
+      },
+      "license": {"id": "OFL-1.1", "files": ["fonts/24-xiaolai/licenses/OFL.txt"]},
+      "distribution": {"mode": "bundled", "note": "原始上游 TTF，随附 OFL 1.1。"},
+      "css": {"family": "Nvwa Chinese 24 Xiaolai", "weight": "400", "style": "normal"},
+      "assets": [{"path": "fonts/24-xiaolai/files/Xiaolai-Regular.ttf", "format": "truetype", "bytes": 22220806, "sha256": "e2f68daf0e72777a8cf58bc83de1b98634b251e537ddbfca24b0ae50d1802da2"}]
+    }
+  ]
+}

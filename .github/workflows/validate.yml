@@ -1,0 +1,42 @@
+name: Validate font catalog
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install validation dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Validate catalog, hashes, licenses, and fonts
+        run: python scripts/validate_catalog.py
+
+      - name: Exercise plugin catalog commands
+        run: |
+          python plugins/chinese-character-open/skills/chinese-character-open/scripts/fontkit.py list --json
+          python plugins/chinese-character-open/skills/chinese-character-open/scripts/fontkit.py info 10
+
+      - name: Exercise preview and export
+        run: |
+          python plugins/chinese-character-open/skills/chinese-character-open/scripts/fontkit.py preview --output "$RUNNER_TEMP/font-preview.html"
+          python plugins/chinese-character-open/skills/chinese-character-open/scripts/fontkit.py export --font 10,20 --output-dir "$RUNNER_TEMP/ipa-originals"
+
+      - name: Confirm link-only fonts cannot be exported
+        run: |
+          if python plugins/chinese-character-open/skills/chinese-character-open/scripts/fontkit.py export --font 01 --output-dir "$RUNNER_TEMP/must-not-exist"; then
+            echo "link-only export unexpectedly succeeded"
+            exit 1
+          fi

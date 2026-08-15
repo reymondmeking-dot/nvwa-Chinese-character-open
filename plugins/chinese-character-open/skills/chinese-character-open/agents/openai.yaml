@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chinese Character Open"
+  short_description: "Preview and install distinctive open Chinese display fonts."
+  default_prompt: "Use $chinese-character-open to preview and apply a bold open Chinese font to this project."

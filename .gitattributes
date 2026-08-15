@@ -1,0 +1,10 @@
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.7z binary
+plugins/chinese-character-open/fonts/**/licenses/** -whitespace

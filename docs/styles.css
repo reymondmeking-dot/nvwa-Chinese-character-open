@@ -1,0 +1,199 @@
+:root {
+  color-scheme: light;
+  --ink: #171d1b;
+  --paper: #f2f5f1;
+  --card: #ffffff;
+  --green: #0a8d68;
+  --line: #dce3de;
+  --muted: #65706c;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+a { color: inherit; }
+
+.hero {
+  min-height: 720px;
+  padding: 24px clamp(24px, 6vw, 96px) 72px;
+  background:
+    radial-gradient(circle at 86% 22%, rgba(13, 156, 112, .2), transparent 27%),
+    linear-gradient(135deg, #f8fbf7 0%, #eaf4ee 56%, #dcece5 100%);
+  border-bottom: 1px solid var(--line);
+}
+
+nav {
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 750;
+}
+
+nav a { text-decoration: none; }
+.brand { letter-spacing: .04em; }
+.github { padding: 10px 15px; border: 1px solid rgba(23, 29, 27, .18); border-radius: 999px; }
+
+.hero-copy {
+  max-width: 1320px;
+  margin: 124px auto 0;
+}
+
+.eyebrow, .section-label {
+  margin: 0 0 18px;
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: .19em;
+}
+
+h1 {
+  max-width: 920px;
+  margin: 0;
+  font-size: clamp(64px, 9vw, 130px);
+  line-height: .95;
+  letter-spacing: -.075em;
+}
+
+h1 em { color: var(--green); font-style: normal; }
+
+.intro {
+  max-width: 700px;
+  margin: 36px 0 0;
+  color: #4b5853;
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.65;
+}
+
+.stats {
+  display: flex;
+  gap: 48px;
+  margin-top: 58px;
+}
+
+.stats div { display: grid; gap: 3px; }
+.stats strong { font-size: 34px; line-height: 1; }
+.stats span { color: var(--muted); font-size: 13px; }
+
+main { max-width: 1440px; margin: auto; padding: 76px clamp(18px, 5vw, 72px) 96px; }
+
+h2 {
+  margin: 0;
+  font-size: clamp(34px, 4vw, 58px);
+  letter-spacing: -.055em;
+  line-height: 1.08;
+}
+
+.install {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 42px;
+  align-items: end;
+  padding: 38px;
+  border-radius: 28px;
+  background: var(--ink);
+  color: #f5f8f6;
+}
+
+.install .section-label { color: #5fd7ad; }
+
+pre {
+  margin: 0;
+  padding: 24px;
+  overflow-x: auto;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 16px;
+  background: #0d1210;
+  color: #c9f4e3;
+  font: 13px/1.85 ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.gallery { margin-top: 120px; }
+
+.section-head {
+  display: grid;
+  grid-template-columns: 1fr minmax(280px, 470px);
+  gap: 48px;
+  align-items: end;
+  margin-bottom: 46px;
+}
+
+.section-head > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+figure {
+  margin: 0 0 32px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--card);
+  box-shadow: 0 20px 60px rgba(23, 40, 33, .07);
+}
+
+figcaption {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 14px;
+}
+
+figcaption span { color: var(--green); font-weight: 850; letter-spacing: .08em; }
+
+figure img { display: block; width: 100%; height: auto; }
+
+.license-note {
+  margin-top: 112px;
+  padding: clamp(32px, 7vw, 92px);
+  border: 1px solid #abd5c5;
+  border-radius: 32px;
+  background: #ddf2e9;
+}
+
+.license-note h2 { max-width: 820px; }
+
+.license-note p:not(.section-label) {
+  max-width: 760px;
+  margin: 26px 0;
+  color: #3e5750;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.license-note a { color: var(--green); font-weight: 800; text-underline-offset: 4px; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px clamp(24px, 6vw, 96px);
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+@media (max-width: 760px) {
+  .hero { min-height: auto; padding-bottom: 56px; }
+  .hero-copy { margin-top: 92px; }
+  h1 { font-size: clamp(52px, 15vw, 70px); letter-spacing: -.08em; }
+  .stats { gap: 28px; }
+  .install, .section-head { grid-template-columns: 1fr; }
+  .gallery, .license-note { margin-top: 78px; }
+  footer { flex-direction: column; }
+}

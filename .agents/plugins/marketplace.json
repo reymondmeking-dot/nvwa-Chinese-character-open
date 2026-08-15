@@ -1,0 +1,20 @@
+{
+  "name": "nvwa-chinese-character-open",
+  "interface": {
+    "displayName": "女娲中文字体库"
+  },
+  "plugins": [
+    {
+      "name": "chinese-character-open",
+      "source": {
+        "source": "local",
+        "path": "./plugins/chinese-character-open"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}
