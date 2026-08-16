@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A numbered catalog of 24 Chinese fonts with license-safe preview and export tools.",
   "author": {
-    "name": "Reymond"
+    "name": "Chinese Character Open Contributors"
   },
   "license": "MIT",
   "keywords": [
@@ -17,7 +17,7 @@
     "displayName": "Chinese Character Open",
     "shortDescription": "24 numbered Chinese fonts, ready to compare and safely apply.",
     "longDescription": "Browse a 24-font Chinese typography catalog, inspect official sources and licenses, and export the 20 redistributable upstream font files with every required notice preserved.",
-    "developerName": "Reymond",
+    "developerName": "Chinese Character Open Contributors",
     "category": "Design",
     "capabilities": [
       "Preview",
